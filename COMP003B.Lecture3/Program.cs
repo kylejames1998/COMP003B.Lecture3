@@ -28,7 +28,7 @@ namespace COMP003B.Lecture3
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Students}/{action=Index}/{id?}");
 
             app.Run();
         }
